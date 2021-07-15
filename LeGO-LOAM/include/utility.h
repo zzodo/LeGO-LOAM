@@ -75,6 +75,14 @@ extern const int groundScanInd = 7;
 // extern const float ang_bottom = 30.67;
 // extern const int groundScanInd = 20;
 
+// HDL-64E
+extern const int N_SCAN = 64;
+extern const int Horizon_SCAN = 1800;
+extern const float ang_res_x = 360.0 / float(Horizon_SCAN);
+extern const float ang_res_y = 26.9 / float(N_SCAN - 1);
+extern const float ang_bottom = 24.9;
+extern const int groundScanInd = 30;
+
 // VLS-128
 // extern const int N_SCAN = 128;
 // extern const int Horizon_SCAN = 1800;
